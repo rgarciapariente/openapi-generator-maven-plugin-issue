@@ -83,6 +83,8 @@
 							<!-- target to generate java server code -->
 							<generatorName>spring</generatorName>
 
+							<templateDirectory>${project.basedir}/src/main/resources/templates</templateDirectory>
+
 							<apiPackage>com.example.demo.web</apiPackage>
 							<modelPackage>com.example.demo.model</modelPackage>
 							<invokerPackage>com.example.demo</invokerPackage>
